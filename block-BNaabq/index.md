@@ -10,7 +10,6 @@ For example:-
 ```js
 res.cookie("username", "suraj");
 
-
 ```
 
 2. Fetch all cookies from request in next middleware.
