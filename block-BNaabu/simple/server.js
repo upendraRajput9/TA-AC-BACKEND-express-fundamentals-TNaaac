@@ -22,11 +22,11 @@ app.get('/about',(req,res)=>{
 })
 
 app.use((req,res,next)=>{
-    res.send('PAGE NOT FOUND')
+   res.status(404).send('PAGE NOT FOUND')
 })
 
 app.use((err,req,res,next)=>{
-    res.send(err)
+    res.status(500).send(err)
 })
 
 
