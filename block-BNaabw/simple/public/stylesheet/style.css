@@ -469,3 +469,13 @@ footer i{
         padding: 0;
     }
 }
+/* //index  */
+.projectsButton{
+    width: 50%;
+    background-image: linear-gradient(to right, rgb(41, 1, 41) , rgb(85, 53, 85));
+    margin-top: 20rem;
+    padding: 5rem;
+    color: azure;
+    font-size: 3rem;
+    border-radius: 2rem;
+}
